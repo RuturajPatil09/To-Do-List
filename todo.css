@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+}
+
+.container{
+    padding-left: 550px;
+}
+
+.datatable table{
+    width: 600px;
+}
+
+.datatable table,th,td{
+    border: 3px solid;
+    border-collapse: collapse;
+}
+
+button{
+    background-color: blue;
+    width: 80px;
+    height: 30px;
+    color: white;
+}
+
+/* .container td, th{
+
+} */
+
+/* .task{
+    padding-left: 550px;
+} */

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <title>To-Do List</title>
+
+</head>
+
+ 
+
+<body>
+
+    <h1>To-Do List </h1>
+
+    <div class="container">
+        <div class="entrypart">
+            <h3>Task</h3>
+            <textarea class="inputarea" id="title" cols="50" rows="3" placeholder="Task"></textarea>
+
+            <h3>Description</h3>
+            <textarea class="inputarea" id="description" cols="50" rows="5" placeholder="Description"></textarea>
+        </div>
+        <br>
+
+        <div class="addinginlist">
+            <button type="submit" id="add">Add to List</button>
+
+            <button type="submit" id="clear" onclick="clearData()">Clear List</button>
+        </div>
+        <br>
+
+        <div class="datatable">
+            <table>
+                <caption> <b>Your List</b> </caption>
+                <thead>
+                    <tr>
+                        <th>Sr.no</th>
+                        <th colspan="20">Tasks</th>
+                        <th colspan="50">Description</th>
+                        <th colspan="1"> Operation </th>
+                    </tr>
+                </thead>
+
+                <tbody id="tablebody">
+                    
+                </tbody>
+        
+            </table>
+        </div>
+
+    </div>
+
+
+    
+
+    <script src="todo.js"></script>
+</body>
+
+
+</html>
